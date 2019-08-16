@@ -80,6 +80,6 @@ function changeContainerBgColor(temp,minTemp,maxTemp){
     }
 
     console.log(color0,color1,color2)
-    document.body.style.backgroundImage= "-webkit-linear-gradient("+ color0 +" , "+ color1 +","+color2+")";
+    document.body.style.backgroundImage= "-webkit-linear-gradient("+ color1 +" , "+ color0 +","+color2+")";
     document.body.style.backgroundSize='cover'
   }
