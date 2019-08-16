@@ -1,0 +1,117 @@
+body {
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+header #logo {
+    text-align: left;
+}
+
+#logo {
+    width: 10%;
+    height: 10%;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Sacramento', cursive;
+    vertical-align: top;
+
+    display: inline-block;
+    position: relative;
+
+}
+
+nav {
+    text-align: center;
+
+}
+
+input {
+    width: 25%;
+    height: 50px;
+    font-size: 25px;
+    padding-left: 14px;
+    font-family: 'Pacifico', cursive;
+    border-radius: 25px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+
+}
+
+input[type=text]:focus {
+    width: 50%;
+    outline: none;
+}
+
+
+#search-btn {
+    width: 40px;
+    height: 40px;
+    position: relative;
+
+    top: 5px;
+    left: 5px;
+
+}
+
+#main {
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+    display: block;
+}
+
+.city-icon {
+    display: inline-block;
+}
+
+#icon {
+    width: 50px;
+    height: 50px;
+
+}
+
+#city-name {
+    font-family: 'Lucida Handwriting';
+    padding-bottom: 20px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.temperature,
+.humidity,
+#des {
+
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    input {
+        width: 40%;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    input[type=text]:focus {
+        width: 70%;
+        outline: none;
+    }
+
+    #search-btn {
+        width: 20px;
+        height: 20px;
+
+    }
+
+}
